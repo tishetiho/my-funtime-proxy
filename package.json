@@ -1,9 +1,14 @@
 {
- "name": "render-proxy",
- "description": "Simple HTTP-Proxy",
- "main": "server.js",
-  "start": "node server.js"
- "dependencies": {
-  "http-proxy": "^1.18.1"
- }
+  "name": "render-proxy",
+  "description": "Simple HTTP-Proxy",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  }
 }
