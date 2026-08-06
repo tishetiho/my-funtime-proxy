@@ -1,0 +1,9 @@
+{
+ "name": "render-proxy",
+ "description": "Simple HTTP-Proxy",
+ "main": "server.js",
+  "start": "node server.js"
+ "dependencies": {
+  "http-proxy": "^1.18.1"
+ }
+}
